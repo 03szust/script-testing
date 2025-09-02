@@ -1,0 +1,10 @@
+<ModOps>
+  <ModOp GUID="2001271" Add="ShortcutConfig/InputBindings">
+    <Item>
+      <InputTypes><Modern><KeyType>Shift;F11</KeyType></Modern><Legacy><KeyType>Shift;F11</KeyType></Legacy></InputTypes>
+      <Command>ScriptTesting.Main()</Command>
+      <Active>Session;WorldMap;Popup;Menu;Pause</Active>
+      <AvailableOnPlatforms>PC</AvailableOnPlatforms>
+    </Item>
+  </ModOp>
+</ModOps>

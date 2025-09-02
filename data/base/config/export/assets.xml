@@ -1,0 +1,4 @@
+<ModOps>
+  <!-- do both individual XMLs and this assets.xml to support both exported and not exported configurations -->
+  <Include File="../game/asset/system.xml" />
+</ModOps>

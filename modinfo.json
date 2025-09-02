@@ -1,0 +1,26 @@
+{
+  "ModID": "script-testing",
+  "Version": "1.0",
+  "Anno": 8,
+  "Difficulty": "cheat",
+  "RequiresNewGame": false,
+  "SafeToRemove": true,
+  "Category": {
+    "English": "Cheat"
+  },
+  "ModName": {
+    "English": "Script Testing Mod"
+  },
+  "Description": {
+    "English": "Utility mod to test lua scripts"
+  },
+  "Scripts": {
+    "Modules": [
+      "script-testing_lua/script-testing.lua"
+    ],
+    "Init": "ScriptTesting = require(\"script-testing\")",
+    "Load": "ScriptTesting:Load()",
+    "Unload": "ScriptTesting:Unload()",
+    "Tick": "ScriptTesting:Tick()"
+  }
+}
