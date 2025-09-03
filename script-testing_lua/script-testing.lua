@@ -1,10 +1,12 @@
 local ScriptTesting = {}
 
 local function log_error(err)
-  local traceback = debug.traceback~=nil and debug.traceback() or "nil"
-  local fullerr = tostring(err)..", traceback:\n"..traceback
-  system.log("ERROR : "..fullerr)
-  return fullerr
+    -- Error Logging Function made by Serp
+    -- Don't change this unless you really need to
+    local traceback = debug.traceback~=nil and debug.traceback() or "nil"
+    local fullerr = tostring(err)..", traceback:\n"..traceback
+    system.log("ERROR : "..fullerr)
+    return fullerr
 end
 
 local function LoadFunction()
