@@ -26,8 +26,10 @@ end
 
 local function TickFunction()
     -- Insert Script executed at gametick to test here: 
+    -- USE WITH CARE! 
+    -- This can easily lag out your game or create giant log file.
     -- START
-    --print(Selection.Object.ID)
+    -- print("tick")
 
     -- END
 end
