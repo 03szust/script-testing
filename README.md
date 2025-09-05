@@ -12,7 +12,7 @@ This mod provides you with four points to execute your code at:
 It also provides a little tutorial on how to make and use Lua scripts:
 
 ## 1: General Lua
-Lua is a programming language that is mostly used to expand already existing software to make it more customizable and this is also how it is used for mods in Anno. 
+[Lua](https://www.lua.org/pil/contents.html) is a programming language that is mostly used to expand already existing software to make it more customizable and this is also how it is used for mods in Anno. 
 Writing Lua scripts is relatively easy as long as you already know how to write code. While the syntax is a bit different to any other language, the structure is comparable to C(++), Java, Python, or any other procedural programming language. This means code is written as a list of instructions that are called after another.
 - Variables:
     Variables can be most things, but usually they are either a number, a piece of text (string), a boolean (true or false), a table (a list of other variables), a pointer (more about those later), or nil (nothing). They are what you operate on. Generally speaking what your script will do is get a varibale and then change it.
@@ -83,7 +83,7 @@ Writing Lua scripts is relatively easy as long as you already know how to write 
     In general expect everything you get from the game in some way to be a pointer with a class behind it. such a thing is called an object (and it's where the name object oriented programming comes from).
 
 ## Lua in Anno 117
-Anno 117 uses Luau, a version of Lua that is most famous for being used in Roblox, so any tutorial or documentation that applies to Roblox will probably apply to Anno 117 as well.
+Anno 117 uses [Luau](https://luau.org/), a version of Lua that is most famous for being used in Roblox, so any tutorial or documentation that applies to Roblox will probably apply to Anno 117 as well.
 To actually mod the game though we have to interact with it first. This has to be split into two sections. first, how to get our script to be executed and then second, how to do write code that actually does something ingame.
 ### Executing Code
 There are five ways to execute Code within Anno 117: Init, Load, Tick, Trigger and Unload. To have scripts executed at Init, Load, Tick or Unload you have to tell the game to do so in the `modinfo.json`. Check the one for this mod to see what that looks like. To have scripts executed at a Trigger you have to write some XML code as well.
