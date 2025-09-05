@@ -86,7 +86,7 @@ Writing Lua scripts is relatively easy as long as you already know how to write 
 Anno 117 uses [Luau](https://luau.org/), a version of Lua that is most famous for being used in Roblox, so any tutorial or documentation that applies to Roblox will probably apply to Anno 117 as well.
 To actually mod the game though we have to interact with it first. This has to be split into two sections. first, how to get our script to be executed and then second, how to do write code that actually does something ingame.
 ### Executing Code
-There are five ways to execute Code within Anno 117: Init, Load, Tick, Trigger and Unload. To have scripts executed at Init, Load, Tick or Unload you have to tell the game to do so in the `modinfo.json`. Check the one for this mod to see what that looks like. To have scripts executed at a Trigger you have to write some XML code as well.
+There are five ways to execute Code within Anno 117: Init, Load, Tick, Trigger and Unload. To have scripts executed at Init, Load, Tick or Unload you have to tell the game to do so in the `modinfo.json`[here](./modinfo.json). Check the one for this mod to see what that looks like. To have scripts executed at a Trigger you have to write some XML code as well.
 - Init
     After checking the `modinfo.json` you will have noticed that the entry at Init looks different to the others. Init executes code at the time when a mod is loaded, which is usually when you start the game. There is very little reason to execute anything at that point, but we need to make sure the module your scripts are in exists. Module in this case is just a fancy word for folder.
     Having said that, any Variable that you set up outside of any function will be initialized at this point.
