@@ -9,7 +9,7 @@ This mod provides you with four points to execute your code at:
 - Unload (Unloading a Savegame)
 - Trigger (Shift + F11)
 
-It also provides a little tutorial on how to make and use Lua scripts
+It also provides a little tutorial on how to make and use Lua scripts:
 
 ## 1: General Lua
 Lua is a programming language that is mostly used to expand already existing software to make it more customizable and this is also how it is used for mods in Anno. 
