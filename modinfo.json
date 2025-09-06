@@ -18,7 +18,7 @@
     "Modules": [
       "script-testing_lua/script-testing.lua"
     ],
-    "Init": "ScriptTesting = require(\"script-testing_lua\")",
+    "Init": "ScriptTesting = require(\"script-testing\")",
     "Load": "ScriptTesting:Load()",
     "Unload": "ScriptTesting:Unload()",
     "Tick": "ScriptTesting:Tick()"

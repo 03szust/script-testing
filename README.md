@@ -88,7 +88,7 @@ To actually mod the game though we have to interact with it first. This has to b
 ### Executing Code
 There are five ways to execute Code within Anno 117: Init, Load, Tick, Trigger and Unload. To have scripts executed at Init, Load, Tick or Unload you have to tell the game to do so in the `modinfo.json`[here](./modinfo.json). Check the one for this mod to see what that looks like. To have scripts executed at a Trigger you have to write some XML code as well.
 - Init
-    After checking the `modinfo.json` you will have noticed that the entry at Init looks different to the others. Init executes code at the time when a mod is loaded, which is usually when you start the game. There is very little reason to execute anything at that point, but we need to make sure the module your scripts are in exists. Module in this case is just a fancy word for folder.
+    After checking the `modinfo.json` you will have noticed that the entry at Init looks different to the others. Init executes code at the time when a mod is loaded, which is usually when you start the game. There is very little reason to execute anything at that point, but we need to make sure the module your scripts are in exists. Module in this case is just a fancy word for file.
     Having said that, any Variable that you set up outside of any function will be initialized at this point.
 - Load
     This is the first interesting point to do something at. Any script that is here will be executed directly after you finish loading a savegame but before pressing the Set Sail button. One thing this is useful for is if you have to reset something everytime you load a savegame.
